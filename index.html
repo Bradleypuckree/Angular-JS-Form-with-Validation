@@ -36,7 +36,7 @@
                </tr>
                
                <tr>
-                  <td>Last name </td>
+                  <td>Last name</td>
                   <td><input name = "lastname"  type = "text" ng-model = "lastName" required>
                      <span style = "color:red" ng-show = "studentForm.lastname.$dirty && studentForm.lastname.$invalid">
                         <span ng-show = "studentForm.lastname.$error.required">Last Name is required.</span>
@@ -54,7 +54,7 @@
                </tr>
 			   
 			       <tr>
-                  <td>Company/Organization </td>
+                  <td>Company/Organization</td>
                   <td><input name = "company"  type = "text" ng-model = "company" required>
                      <span style = "color:red" ng-show = "studentForm.company.$dirty && studentForm.company.$invalid">
                         <span ng-show = "studentForm.company.$error.required">Company/Organization is required.</span>
@@ -109,7 +109,7 @@
 				  
 <div ng-app="">
 
-<textarea required
+<textarea
   ng-model="string"
   [name="Enter Your Text"]
   [required="string"]
@@ -120,9 +120,6 @@
 ...
 </textarea>
 
-	<span style = "color:red" ng-show = "studentForm.lastname.$dirty && studentForm.lastname.$invalid">
-	<span ng-show = "studentForm.lastname.$error.required">Last Name is required.</span>
-	</span>
 
 </div>
 
